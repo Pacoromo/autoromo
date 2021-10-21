@@ -70,13 +70,13 @@ footer {
 }
 
 .navbar-toggler {
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
   outline: 1px dotted white;
-  box-shadow: none;
+  /* box-shadow: none; */
 }
 
 .toggler-icon {
