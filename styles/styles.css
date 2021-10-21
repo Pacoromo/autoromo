@@ -68,6 +68,68 @@ footer {
   color: #fff;
   background-color: #e31837;
 }
+/* .navbar-toggler {
+  border: 5px solid white;
+  opacity: 1;
+} */
+/* 
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none; 
+  border: 0;
+} */
+
+.toggler-icon {
+  /* width: 30px; */
+  /* height: 3px; */
+  /* background-color: #fff; */
+  height: 13px;
+  display: block;
+  transition: all .2s;
+}
+/* 
+.middle-bar {
+  margin: 5px auto;
+} */
+
+.navbar-toggler .top-bar {
+  transform: rotate(90deg);
+  /* transform-origin: 10% 20%; */
+  transform-origin: 50% 140%;
+}
+
+.navbar-toggler .middle-bar{
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(180deg);
+  /* transform-origin: 10% 20%; */
+  transform-origin: 30% 10%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(225deg);
+  transform-origin: 35% 70%;
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  transform: rotate(45deg);
+  transform-origin: 90% 120%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(225deg);
+  transform-origin: 35% 75%;
+}
+
+
+
 
 .nav-button i {
   font-size: 30px;
