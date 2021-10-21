@@ -72,12 +72,12 @@ footer {
 .navbar-toggler {
   border: 1px solid white !important;
 }
-/*
+
 .navbar-toggler:focus,
 .navbar-toggler:active {
-  outline: 1px dotted white;
+  outline: none;
   box-shadow: none;
-}*/
+}
 
 .toggler-icon {
   height: 13px;
