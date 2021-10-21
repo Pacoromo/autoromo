@@ -130,15 +130,15 @@ footer p {
 
 .whatsapp-floating-button {
   position: fixed;
-  width: 48px;
-  height: 48px;
-  bottom: 16px;
-  right: 16px;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
   background-color: #25d366;
   border-radius: 50%;
   text-align: center;
-  font-size: 25px;
-  box-shadow: 2px 2px 3px rgb(85, 85, 85);
+  font-size: 35px;
+  box-shadow: 4px 4px 5px rgb(85, 85, 85);
   z-index: 100;
 }
 .wa-logo {
