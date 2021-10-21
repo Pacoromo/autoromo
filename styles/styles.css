@@ -38,7 +38,8 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6,
+.navbar p {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -64,11 +65,11 @@ section {
 .navbar,
 .schedule-banner,
 footer {
+  color: #fff;
   background-color: #e31837;
 }
 
 .nav-button i {
-  color: white;
   font-size: 30px;
 }
 
@@ -102,11 +103,6 @@ footer {
 
 .hero-text-container {
   width: 70%;
-}
-
-.schedule-banner,
-footer {
-  color: white;
 }
 
 /***********Location***********/
