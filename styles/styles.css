@@ -173,11 +173,10 @@ footer {
 .services h2::after,
 .about h2::after {
   content: "";
-  background: url(../assets/logored.svg) center no-repeat;
+  background: url(../assets/logored.svg) center/contain no-repeat;
   display: inline-block;
-  width: .4em;
-  height: .4em;
-  /* height: .5em; */
+  width: 0.4em;
+  height: 0.4em;
   vertical-align: super;
 }
 /***********Location***********/
