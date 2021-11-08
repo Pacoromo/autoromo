@@ -22,6 +22,7 @@ li {
 /*************************************/
 
 body {
+  margin-top: 80px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -88,7 +89,7 @@ footer {
 .toggler-icon {
   height: 13px;
   display: block;
-  transition: all 0.2s;
+  transition: all .3s;
 }
 
 .navbar-toggler .top-bar {
@@ -140,7 +141,6 @@ footer {
   height: calc(
     100vh - 168px
   ); /* 80 px navbar 88 px schedule banner down to iPhone 5 320*568*/
-  margin-top: 80px;
   min-height: 375px;
 }
 
@@ -162,11 +162,13 @@ footer {
 .hero-text-container {
   width: 70%;
 }
+
 .schedule-banner {
   min-height: 88px;
 }
 
 /***********Services***********/
+
 /* .services h2 {
   padding-left: 2em;
 } */
@@ -179,6 +181,7 @@ footer {
   height: 0.4em;
   vertical-align: super;
 }
+
 /***********Location***********/
 
 .schedule {
@@ -192,6 +195,7 @@ footer {
 footer {
   font-size: 14px;
 }
+
 footer p {
   font-size: 12px;
 }
